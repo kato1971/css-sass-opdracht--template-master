@@ -1,0 +1,34 @@
+/* Variables */
+$HeaderBackground: #c0eea9;
+$HeaderLine: #000;
+$BackgroundColor : #97d279;
+$StandaardPadding : 20px;
+
+/* Mixin */
+@mixin Text {
+  max-width: 700px;
+  text-align: center;
+  padding: $StandaardPadding;
+  margin: auto;
+  color: #090b08;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  h1 {
+    font-size: 1.7em;
+    font-weight: 700;
+    line-height: 1.5em;
+    text-transform: uppercase;
+  }
+  h2 {
+    text-transform: uppercase;
+  }
+  h4 {
+    font-size: 0.8em;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  h6 {
+    font-weight: 500;
+  }
+}
